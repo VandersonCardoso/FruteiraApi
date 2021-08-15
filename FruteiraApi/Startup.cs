@@ -49,7 +49,7 @@ namespace FruteiraApi
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Title = "Api Fruteira e-Commerce",
-                    Description = "Esta API tem como objetivo disponibilizar métodos para manipulação de itens/produtos de uma fruteira.",
+                    Description = "Esta API tem como objetivo disponibilizar endpoints para manipulação de itens/produtos de uma fruteira.",
                     Version = "v1"
                 });
 
