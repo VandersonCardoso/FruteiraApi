@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruteiraApi", "FruteiraApi\FruteiraApi.csproj", "{CEFC3432-38F6-43A0-9B95-EDD9B2F56965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruteiraApi.Core", "FruteiraApi.Core\FruteiraApi.Core.csproj", "{9E47E6C1-A6FB-44FC-9737-13F6361F2261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruteiraApi.Data", "FruteiraApi.Data\FruteiraApi.Data.csproj", "{9C5B7A6B-97A5-4F01-9640-D2F9D46791C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruteiraApi.IoC", "FruteiraApi.IoC\FruteiraApi.IoC.csproj", "{786404C5-FD54-4E68-915F-77566F11254C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruteiraApi.Services", "FruteiraApi.Services\FruteiraApi.Services.csproj", "{5F77F00A-691C-49AB-B136-2C8F2A4CAF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruteiraApi.Tests", "FruteiraApi.Tests\FruteiraApi.Tests.csproj", "{60F7190F-A6C4-472F-9609-CAF7597E92FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFC3432-38F6-43A0-9B95-EDD9B2F56965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFC3432-38F6-43A0-9B95-EDD9B2F56965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFC3432-38F6-43A0-9B95-EDD9B2F56965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFC3432-38F6-43A0-9B95-EDD9B2F56965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E47E6C1-A6FB-44FC-9737-13F6361F2261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E47E6C1-A6FB-44FC-9737-13F6361F2261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E47E6C1-A6FB-44FC-9737-13F6361F2261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E47E6C1-A6FB-44FC-9737-13F6361F2261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5B7A6B-97A5-4F01-9640-D2F9D46791C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5B7A6B-97A5-4F01-9640-D2F9D46791C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5B7A6B-97A5-4F01-9640-D2F9D46791C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5B7A6B-97A5-4F01-9640-D2F9D46791C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786404C5-FD54-4E68-915F-77566F11254C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786404C5-FD54-4E68-915F-77566F11254C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786404C5-FD54-4E68-915F-77566F11254C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786404C5-FD54-4E68-915F-77566F11254C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F77F00A-691C-49AB-B136-2C8F2A4CAF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F77F00A-691C-49AB-B136-2C8F2A4CAF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F77F00A-691C-49AB-B136-2C8F2A4CAF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F77F00A-691C-49AB-B136-2C8F2A4CAF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F7190F-A6C4-472F-9609-CAF7597E92FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F7190F-A6C4-472F-9609-CAF7597E92FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F7190F-A6C4-472F-9609-CAF7597E92FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F7190F-A6C4-472F-9609-CAF7597E92FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {152B7B66-04BF-49E6-AE37-8232B24C0013}
+	EndGlobalSection
+EndGlobal

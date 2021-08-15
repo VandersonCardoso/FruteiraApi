@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FruteiraApi</name>
+    </assembly>
+    <members>
+        <member name="M:FruteiraApi.Controllers.FrutaController.GetConsultarFrutas">
+            <summary alignment="right">
+            Endpoint para listagem das frutas
+            </summary>
+            <remarks>
+            Este endpoint tem como objetivo retornar uma lista de frutas cadastradas
+            </remarks>
+            <returns>Códigos de retorno para o endpoint ConsultarFrutas</returns>
+            <response code="200">Código de retorno caso o endpoint retorne a lista de frutas.</response>
+            <response code="400">Código de retorno caso ocorra um erro ao obter a lista de frutas.</response>
+        </member>
+        <member name="M:FruteiraApi.Controllers.FrutaController.GetConsultarFruta(System.Int32)">
+            <summary alignment="right">
+            Endpoint para consulta de uma fruta
+            </summary>
+            <remarks>
+            Este endpoint tem como objetivo retornar as informações de uma fruta cadastrada, através do seu ID.
+            </remarks>
+            <returns>Códigos de retorno para o endpoint ConsultarFruta</returns>
+            <response code="200">Código de retorno caso o endpoint retorne as informações da fruta.</response>
+            <response code="400">Código de retorno caso ocorra um erro ao obter a fruta informada ou caso o id informado seja inválido.</response>
+        </member>
+        <member name="M:FruteiraApi.Controllers.FrutaController.PostIncluirFruta(FruteiraApi.Core.Domain.Models.Fruta)">
+            <summary alignment="right">
+            Endpoint para inclusão de uma fruta
+            </summary>
+            <remarks>
+            Este endpoint tem como incluir uma fruta no cadastro de frutas.
+            </remarks>
+            <returns>Códigos de retorno para o endpoint IncluirFruta</returns>
+            <response code="200">Código de retorno caso o endpoint inclua a fruta corretamente.</response>
+            <response code="400">Código de retorno caso ocorra um erro ao incluir a fruta informada ou caso o conteúdo da requisição esteja divergente da especificação.</response>
+        </member>
+        <member name="M:FruteiraApi.Controllers.FrutaController.PutAtualizarFruta(System.Int32,FruteiraApi.Core.Domain.Models.Fruta)">
+            <summary alignment="right">
+            Endpoint para atualização de uma fruta
+            </summary>
+            <remarks>
+            Este endpoint tem como atualizar as informações de uma fruta no seu respectivo cadastro.
+            </remarks>
+            <returns>Códigos de retorno para o endpoint AtualizarrFruta</returns>
+            <response code="200">Código de retorno caso o endpoint atualize as informações da fruta corretamente.</response>
+            <response code="400">Código de retorno caso ocorra um erro ao atualizar as informações da fruta informada ou caso o conteúdo da requisição esteja divergente da especificação.</response>
+        </member>
+        <member name="M:FruteiraApi.Controllers.FrutaController.DeleteExcluirFruta(System.Int32)">
+            <summary alignment="right">
+            Endpoint para exclusão de uma fruta
+            </summary>
+            <remarks>
+            Este endpoint tem como excluir uma fruta do cadastro de frutas.
+            </remarks>
+            <returns>Códigos de retorno para o endpoint ExcluirFruta</returns>
+            <response code="200">Código de retorno caso o endpoint exclua a fruta corretamente.</response>
+            <response code="400">Código de retorno caso ocorra um erro ao excluir a fruta informada ou caso o conteúdo da requisição esteja divergente da especificação.</response>
+        </member>
+    </members>
+</doc>
