@@ -1,6 +1,7 @@
 ﻿using FruteiraApi.Core.Domain.Models;
 using FruteiraApi.Core.Domain.Responses;
 using FruteiraApi.Core.Interfaces;
+using FruteiraApi.Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Net;
@@ -32,8 +33,8 @@ namespace FruteiraApi.Controllers
         /// <response code="200">Código de retorno caso o endpoint retorne a lista de frutas.</response>
         /// <response code="400">Código de retorno caso ocorra um erro ao obter a lista de frutas.</response>
         [HttpGet("/ConsultarFrutas")]
-        [ProducesResponseType(typeof(List<Fruta>), (int)HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(List<Fruta>), (int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType(typeof(List<Frutas>), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(List<Frutas>), (int)HttpStatusCode.BadRequest)]
         public IActionResult GetConsultarFrutas()
         {
             if (!ModelState.IsValid)
